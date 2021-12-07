@@ -1,0 +1,177 @@
+/*--- id selector ---*/
+#title {
+  background-color: #ff4c68;
+}
+
+/*--- tag selector ---*/
+body {
+  font-family: "Montserrat";
+}
+h1, h2, h3, h4, h5{
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+p {
+  color: #8f8f8f;
+  font-weight: 600;
+}
+
+/* Heading */
+
+.big-heading{
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/*--- class selector ---*/
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.btn {
+  font-weight: 500;
+}
+
+.h1 {
+  font-size: 2.5rem;
+}
+
+.white {
+  color: white;
+}
+
+.h2 {
+  font-size: 1.25rem;
+}
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.brand {
+  font-family: "Ubuntu";
+  font-weight: 500;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: normal;
+}
+
+/* title image */
+.title-img {
+  width: 25%;
+  transform: rotate(25deg);
+  position: absolute;
+  z-index: 0;
+  right: 15%;
+}
+
+/* features section */
+#features {
+  padding: 7% 15%;
+  font-family: "Montserrat";
+  background-color: white;
+  position: relative;
+}
+
+.features-box {
+  padding: 3%;
+}
+
+.features-icon {
+  color: #EF8172;
+  margin-bottom: 1rem;
+}
+
+.features-icon:hover {
+  color: #FF4C68;
+}
+
+.features-heading {
+  font-weight: bold;
+}
+
+/* testimonial section */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* press section */
+#press {
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Cta Section */
+#cta {
+  background-color: #ff4c68;
+  font-family: "Montserrat";
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.h3 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-cta {
+  padding: 7% 15%;
+}
+
+/* Footer Section */
+#footer{
+  background-color: #fff;
+  padding: 3% 15%;
+  text-align: center;
+}
+.footer-icon{
+  margin: 25px 10px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    width: 50%;
+    position: static;
+    transform: rotate(0deg);
+  }
+}
